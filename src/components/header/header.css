@@ -1,0 +1,21 @@
+.header__images__app{
+    width: 100%;
+    padding: 2.5em 0em;
+}
+.header__images__app .header__navbar__app{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.header__navbar__app .header__title .title{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.header__navbar__app .generated__for .text{
+    font-size: .8em;
+    font-weight: 300;
+}
