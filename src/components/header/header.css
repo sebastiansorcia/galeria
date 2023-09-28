@@ -5,8 +5,7 @@
 .header__images__app .header__navbar__app{
     height: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 .header__navbar__app .header__title .title{
@@ -19,4 +18,21 @@
     font-size: .7em;
     font-weight: 300;
     color: #3b3b3b;
+}
+.switch{
+    display: block;
+    padding: 18px 45px;
+    position: relative;
+    background: rgb(248, 248, 248);
+    border-radius: 35px;
+}
+.switch::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #3679f7;
+    top: .2em;
+    right: .2em;
+    border-radius: 50%;
 }
