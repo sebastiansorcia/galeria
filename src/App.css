@@ -6,12 +6,16 @@
 }
 :root{
   --background--app:hsl(0, 0%, 100%);
+  --color:hsl(0, 0%, 0%);
+  --background-swtich:#f1f1f1;
   --font--app:'Poppins', sans-serif;
 }
 body{
   background-color: var(--background--app);
-  font-family: var(--font--app);
+  font-family:'Poppins', sans-serif;
+  transition: all .2s ease-in;
   min-height: 100vh;
+  color: var(--color);
 }
 .container-mx{
   width: 95%;

@@ -12,9 +12,6 @@ function Header() {
                         <span className="text">developed by sebastian</span>
                     </div>
                 </div>
-                <div className="switch-theme">
-                    <label htmlFor="darkmode" className="switch"></label>
-                </div>
             </nav>
         </header>
     )
